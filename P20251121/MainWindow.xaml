@@ -8,10 +8,19 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <DockPanel>
-            <Menu DockPanel.Dock="Top">
-                <MenuItem Header="_File"/>
-
-            </Menu>
+            <MenuItem DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_New"/>
+                    <MenuItem Header="_Open"/>
+                    <MenuItem Header="_Save"/>
+                    <Separator/>
+                    <MenuItem Header="_Exit"/>
+                </MenuItem>
+                <MenuItem Header="_Edit"/>
+                    <MenuItem Header="_Copy"/>
+                    <MenuItem Header="_Paste"/>
+                    <MenuItem Header="_Delete"/>
+                </MenuItem>
         </DockPanel>
     </Grid>
 </Window>
