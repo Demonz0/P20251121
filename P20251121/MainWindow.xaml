@@ -12,7 +12,7 @@
                 <MenuItem Header="_file">
                     <MenuItem Header="_new" Click="New_window"/>
                     <MenuItem Header="_open" Click="Open_window"/>
-                    <MenuItem Header="_save"/>
+                    <MenuItem Header="_save" Click="Save"/>
                     <Separator/>
                     <MenuItem Header="_exit" Click="MenuItem_Click"/>
                 </MenuItem>

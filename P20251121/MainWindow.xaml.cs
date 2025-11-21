@@ -42,5 +42,11 @@ namespace P20251121
             OpenFileDialog dialog = new OpenFileDialog();
             dialog.ShowDialog();
         }
+
+        private void Save(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog save = new SaveFileDialog();
+            save.ShowDialog();
+        }
     }
 }
