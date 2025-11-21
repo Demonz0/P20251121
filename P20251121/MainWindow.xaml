@@ -21,7 +21,8 @@
                     <MenuItem Header="_paste"/>
                     <MenuItem Header="_delete"/>
                 </MenuItem>
-            </Menu>
+            </Menu>           
         </DockPanel>
+        <TextBox x:Name="textbox" TextWrapping="Wrap" Text="TextBox" Width="500"/>
     </Grid>
 </Window>
