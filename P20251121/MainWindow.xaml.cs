@@ -47,10 +47,12 @@ namespace P20251121
             textbox.Text = File.ReadAllText(dialog.FileName);
         }
 
-        private void Save(object sender, RoutedEventArgs e)
+        private void Save_file(object sender, RoutedEventArgs e)
         {
             SaveFileDialog save = new SaveFileDialog();
             save.ShowDialog();
+
+            
         }
     }
 }
